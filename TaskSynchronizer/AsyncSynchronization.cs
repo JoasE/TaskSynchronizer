@@ -14,7 +14,7 @@ namespace TaskSynchronizer
 
         public void Dispose()
         {
-            _synchronizer.CurrentTask = null;
+            _synchronizer.Release(this);
         }
     }
 }
