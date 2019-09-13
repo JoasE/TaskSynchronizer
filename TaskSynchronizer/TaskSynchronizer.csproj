@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>JoasE</Authors>
+    <Description>TaskSynchronizer is a library built to synchronize multiple parallel invocations of an async method.</Description>
+    <PackageProjectUrl>https://github.com/JoasE/TaskSynchronizer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JoasE/TaskSynchronizer</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <NeutralLanguage></NeutralLanguage>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>TaskSynchronizerKey.pfx</AssemblyOriginatorKeyFile>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 
 </Project>
