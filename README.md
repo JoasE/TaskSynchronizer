@@ -168,3 +168,7 @@ public class ValuesController : ControllerBase
 A `TaskSynchronizer` instance will synchronize any aquire call until the returned synchronization object is disposed.
 This means you should usually use one `TaskSynchronizer` per method.
 If you used one `TaskSynchronizer` for multiple methods and they were all invoked at the same time, only one of the methods would run.
+
+## Installation
+
+https://www.nuget.org/packages/TaskSynchronizer/
